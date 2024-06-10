@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open, sans-serif;
+}
+
+
+body{
+    display: block;
+}
+
+header{
+    background-image: url(asset/imagens/Header\-Background.png);
+    background-size: cover;
+    background-position: 70%;
+    min-height: 506px;
+}
+
+.cabecalho{
+    text-align: center;
+    margin: auto;
+    width: 757px;
+    height: 270px;
+    padding: 5.875rem 4vw;
+}
+
+h1{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFFF;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.texto-cabecalho{
+    text-align: center;
+    font-size: 1rem;
+    color: #FFFF;
+}
+
+.button{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.btn{
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 400; 
+    cursor: pointer;
+}
+
+.btn-1{
+   width: 205px;
+   height: 44px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+}
+
+.btn-2{
+    width: 281px;
+    height: 44px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+
+main{
+    display: block;  
+    justify-content: center;  
+    align-items: center;
+}
+
+img{
+    width: 607px;
+    height: 394px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 50px;
+}
+
+.containers{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.containers:nth-child(even){
+    background-color: #e3e3e3;
+}
+
+.container-4{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 600px;
+}
+
+.content-1{
+    margin-bottom: 250px;
+    width: 400px;
+    height: 270px;
+}
+
+
+.content-2{
+    margin-bottom: 250px;
+    width: 400px;
+    height: 270px;
+}
+
+
+.content-3{
+    margin-bottom: 250px;
+    width: 400px;
+    height: 208px;
+}
+
+.content-4{
+    text-align: center;
+    padding: 0 500px 0 0 ;
+}
+
+.title{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    
+    
+}
+
+.image-footer{
+    width: 230px;
+    height: 44px;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 768px){
+    
+    header{
+        width: 100%;
+        height: auto;
+        background-image: url(asset/imagens/Header-Background.png);
+        background-size: cover;
+    }
+
+    .cabecalho{
+        text-align: center;
+        margin: auto;
+        width: 428px;
+        height: 366px;
+        padding: 5.875rem 4vw;
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+        font-family: "Luckiest Guy", cursive;
+        font-size: 32px;
+        line-height:32px;
+        font-weight: 400;
+        color: #FFFF;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .texto-cabecalho{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 21px;
+        color: #FFFF;
+        width: 100%;
+        height: auto;
+    }
+
+    .button{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        margin-left: 0.2rem;
+    }
+
+    .btn{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    main{
+        display: block;  
+        justify-content: center;  
+        align-items: center;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    h2{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: auto;
+    }
+
+    .containers{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 40px 24px;
+    }
+
+    .container-4{
+        display: block;
+    }
+
+    .content-1{
+        margin-bottom: 10px;
+    }
+
+    .content-2{
+        margin-bottom: 10px;
+    }
+
+    .content-3{
+        margin-bottom: 10px;
+    }
+
+    .content-4{
+        padding: 0 0 0 0 ;
+    }
+}
